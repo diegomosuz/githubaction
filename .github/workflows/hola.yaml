@@ -1,0 +1,12 @@
+me: Hola Actions
+
+on: [push, workflow_dispatch]
+
+jobs:
+  saludar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Hola desde GitHub Actions"
+      - name: Ver sistema operativo
+        run: uname -a
