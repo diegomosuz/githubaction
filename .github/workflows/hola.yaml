@@ -1,4 +1,4 @@
-me: Hola Actions
+name: Hola Actions
 
 on: [push, workflow_dispatch]
 
